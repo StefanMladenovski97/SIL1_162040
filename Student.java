@@ -17,12 +17,20 @@ class Student {
 	labPoints.add(9);
 
 	//TODO seters & getters
-	public double set
-	public double getAverage() {
+	public double getAverage(List<Integer> labPoints) {
 		//TODO
+		int sum = 0;
+      for (int i=0; i< labPoints.size(); i++) {
+            sum += i;
+      }
+      return sum / labPoints.size();
 	}
 
 	public boolean hasSignature() {
 		//TODO
+		if labPoints.size()>8
+		{return true;}
+		else
+		{return false;}
 	}
 }
