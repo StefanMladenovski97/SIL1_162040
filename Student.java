@@ -34,3 +34,11 @@ class Student {
 		{return false;}
 	}
 }
+
+class Course{
+	List<Student>
+	public String StudentName()
+	{
+		return student.firstName +' '+student.lastName
+	}
+}
